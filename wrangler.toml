@@ -1,8 +1,8 @@
-name = "remix-cloudflare-workers"
+name = "test-remix-typescript"
 type = "javascript"
 
 zone_id = ""
-account_id = ""
+account_id = "f3f3d5a46efab05dec7724a7a5dd6c1b"
 route = ""
 workers_dev = true
 
