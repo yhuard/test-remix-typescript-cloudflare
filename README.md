@@ -32,3 +32,13 @@ Once that's done, you should be able to deploy your app:
 ```sh
 npm run deploy
 ```
+
+## I learned...
+
+- how to set up Remix with Cloudflare Workers
+- how to create a GitHub action to automatically deploy to CF Workers on every push
+- Cloudflare Workers don't run in a Node.js environment, meaning we don't have access to Node.js native modules (like `fs`). For data persistence, something like Cloudflare Workers KV could be used https://www.cloudflare.com/en-gb/products/workers-kv/
+
+## Personal notes
+
+- I had to configure SourceTree to have "workflow" scope -> created a new GH personal access token (https://community.atlassian.com/t5/Bitbucket-questions/I-can-t-connect-to-Github-from-Sourcetree/qaq-p/30851#U1350882)
